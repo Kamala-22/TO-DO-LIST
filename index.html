@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="total_box">
+        <nav class="nav">
+            <img src="https://www.shutterstock.com/image-vector/do-list-planning-icon-concept-600nw-739093225.jpg" class="image">
+            <h2>TO-DO-LIST</h2>
+        </nav>
+        <div class="time_box">
+            <h3 id="current-time">00:00:00</h3>
+        
+        </div>
+        <div class="tasks">
+            <div class="completed_task"> 
+                <p>0</p>
+                <h3>COMPLETED TASK</h3>
+                <hr>
+            </div>
+            <div class="pending_task">
+                <p>0</p>
+                <h3>PENDING TASK</h3>
+                <hr>
+            </div>
+            <div class="total_tasks">
+                <p>0</p>
+                <h3>TOTAL TASK</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="Add_new_task">
+            <button id="new">Add new task</button><span><button id="all" style="width: 10vw;">All</button></span>
+        </div>
+        <div class="popup" id="popup">
+            <input type="text" placeholder="add task" id="text">
+            <select class="category">
+                <option value="work">work</option>
+                <option value="business">business</option>
+                <option value="household">household</option>
+                <option value="shopping">shopping</option>
+            </select>
+            <i class="fa fa-save" style="font-size:36px" id="save"></i>
+            <i class="fa fa-close" style="font-size:28px" id="close"></i>
+            
+        </div>
+        <div class="wish">
+
+        </div>
+    </div>
+    <script src="todo.js"></script>
+
+   
+
+</body> 
+</html>
